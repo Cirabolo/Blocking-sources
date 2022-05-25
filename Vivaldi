@@ -6,6 +6,8 @@
 ! Homepage:
 !
 
-youtube.com##.grid-disabled.ytd-browse.style-scope
-youtube.com##.ytd-watch-secondary-results-renderer
 m.youtube.com
+youtube.com/short
+
+www.youtube.com##.grid-disabled.ytd-browse.style-scope
+www.youtube.com##.ytd-watch-secondary-results-renderer
