@@ -7,3 +7,6 @@
 !
 
 www.youtube.com###dismissable:has(#title:contains(Recommended))
+www.youtube.com###dismissable:has(#title:contains(Next))
+www.youtube.com###dismissable:has(#title:contains(Comments))
+www.youtube.com###dismissable:has(#title:contains())
