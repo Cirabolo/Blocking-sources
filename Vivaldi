@@ -7,7 +7,7 @@
 !
 
 m.youtube.com
-youtube.com/shorts
+||youtube.com/shorts/^
 
 www.youtube.com##.grid-disabled.ytd-browse.style-scope
 www.youtube.com##.ytd-watch-secondary-results-renderer
