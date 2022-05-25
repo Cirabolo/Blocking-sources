@@ -14,4 +14,6 @@ www.youtube.com/feed/explore
 www.youtube.com##.grid-disabled.ytd-browse.style-scope
 www.youtube.com##.ytd-watch-secondary-results-renderer
 
-www.youtube.com###text.ytd-thumbnail-overlay-time-status-renderer.style-scope:has-text(/\D0:/):upward(6)
+youtube.com##.section-list > li:has(.shelf-title-cell > a[href="/feed/recommended"])
+youtube.com##.section-list > li:has(.shelf-title-cell > a[href="/feed/explore"])
+youtube.com##.section-list > li:has(.shelf-title-cell > a[href="/shorts"])
