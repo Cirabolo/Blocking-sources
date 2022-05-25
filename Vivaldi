@@ -12,3 +12,6 @@ youtube.com##.ytd-watch-secondary-results-renderer
 youtube.com##ytd-rich-item-renderer
 
 ||youtube.com/feed/explore$document
+||youtube.com/feed/explore$first-party
+
+www.youtube.com/###primary
