@@ -6,7 +6,4 @@
 ! Homepage:
 !
 
-www.youtube.com##.grid-disabled.ytd-browse.style-scope
-www.youtube.com##.grid-disabled.ytm-browse.style-scope
-
-www.youtube.com##.grid-disabled.grid.ytm-browse.style-scope
+www.youtube.com###dismissable:has(#title:contains(Recommended))
