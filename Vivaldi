@@ -8,7 +8,7 @@
 
 m.youtube.com
 
-youtube.com##.grid-disabled.grid.ytd-browse.style-scope
 youtube.com##.ytd-watch-secondary-results-renderer
+youtube.com##ytd-rich-item-renderer
 
 ||youtube.com/shorts$document
