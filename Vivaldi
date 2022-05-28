@@ -183,3 +183,8 @@ toglie numero di iscritti sotto un canale
 www.youtube.com###owner-sub-count
 toglie download video (che è presente solo per youtube premium)
 www.youtube.com##.force-icon-button.size-default.style-default.ytd-download-button-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+
+
+! 2022-05-28 https://www.youtube.com
+toglie commenti desktop
+www.youtube.com###comments > .ytd-comments.style-scope
