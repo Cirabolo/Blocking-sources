@@ -188,3 +188,13 @@ www.youtube.com##.force-icon-button.size-default.style-default.ytd-download-butt
 ! 2022-05-28 https://www.youtube.com
 toglie commenti desktop
 www.youtube.com###comments > .ytd-comments.style-scope
+
+! 2022-05-28 https://www.youtube.com
+toglie commenti
+www.youtube.com###comments > .ytd-comments.style-scope
+toglie tasto iscriviti
+www.youtube.com##tp-yt-paper-button.ytd-subscribe-button-renderer.style-scope
+toglie tasto download video
+www.youtube.com##.force-icon-button.size-default.style-default.ytd-download-button-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+
+
