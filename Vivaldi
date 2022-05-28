@@ -6,12 +6,140 @@
 ! Homepage:
 !
 
-m.youtube.com
 
-youtube.com##.ytd-watch-secondary-results-renderer
-youtube.com##ytd-rich-item-renderer
 
-||youtube.com/feed/explore$document
-||youtube.com/feed/explore$first-party
+!m.youtube.com
 
-www.youtube.com/###primary
+!youtube.com##.ytd-watch-secondary-results-renderer
+!youtube.com##ytd-rich-item-renderer
+
+!||youtube.com/feed/explore$document
+!||youtube.com/feed/explore$first-party
+
+!www.youtube.com/###primary
+
+
+
+
+
+
+! 2022-05-27 https://m.youtube.com
+(MOBILE VERSION)
+
+toglie la home
+m.youtube.com##.rich-grid-renderer-contents
+
+toglie l'icona degli shorts
+m.youtube.com##.pivot-shorts.pivot-bar-item-tab
+toglie lo slot per gli shorts
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
+
+blocca nuovi video iscrizioni
+m.youtube.com##ytm-section-list-renderer > lazy-list
+upper bar con cerchiolini avatar canali a cui si è iscritti
+m.youtube.com##.has-show-all.channel-list-sub-menu-avatars
+
+
+! 2022-05-27 https://www.youtube.com
+(DESKTOP VERSION)
+
+toglie contenuti in home, in explore e in subscriptions
+www.youtube.com###primary > .ytd-two-column-browse-results-renderer.style-scope
+!!!!!!!!!!!!!!'è UN PROBLEMA, ovvero non solo nasconde i video delle iscrizioni, ma i contenuti in generale, anche quelli di un canale youtube
+
+toglie consigliati mentre si sta guardando un video, senza tuttavia rimuovere la l'eventuale playlist da cui è tratto il video che si sta guardando 
+www.youtube.com##ytd-item-section-renderer.ytd-watch-next-secondary-results-renderer.style-scope
+toglie il riquadro (leftover) che serve a filtrare le categorie di video consigliate
+www.youtube.com###container > .yt-chip-cloud-renderer.style-scope
+
+toglie maggioranza degli elementi nella sidebar di sinistra - aka: home, explore, shorts, subs; channels subscribed to; more from youtube (e.g.: sports, gaming, ...):
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-section-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+!- btw il bottone per accedere alle impostazioni, che viene rimosso nella sidebar usando questa regola, posso trovarlo anche cliccando sulla mia icona profilo, situata in alto a destra
+toglie scritta "subscription" rimasta nella sidebar
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
+toglie scritta "more from youtube" rimasta nella sidebar
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+
+-------------------------------------------------------------------------------
+
+
+! 2022-05-27 https://www.tiktok.com
+(MOBILE VERSION)
+
+toglie testo "scarica app":
+www.tiktok.com##.text.jsx-1812151264
+toglie tasto "open" per scaricare l'app:
+www.tiktok.com##button.jsx-1812151264
+
+(il rettangolo che contiene i precedenti lo tengo per motivi estetici)
+
+(da pagina home)
+toglie tasto home:
+www.tiktok.com##.active.link-icon-container.jsx-1400375630 > svg > path
+toglie contributo tasto home allo spartimento dello spazio nella lower bar:
+www.tiktok.com##.active.link-icon-container.jsx-1400375630 > svg
+
+(da pagina cerca)
+toglie tasto home e contributo spazio:
+www.tiktok.com##a.link-icon-container.jsx-1400375630:nth-of-type(1)
+
+toglie numeri (like, commenti, condivisioni):
+www.tiktok.com##.sidebar-warn.sidebar.jsx-2979009161 > .tiktok-toolbar.jsx-1713732519 > div.tiktok-toolbar-icon.jsx-1713732519 > .jsx-1713732519
+
+toglie riquadro (solo grafica) che consiglia di aggiungere tiktok alla home
+##.content.jsx-4236800105
+toglie sia riquadro che background (che impedisce di cliccare) che consiglia di aggiungere tiktok alla home // sembra tolga proprio la possibilità che sta roba salti fuori
+##.add-home.jsx-4236800105
+
+
+(DESKTOP VERSION)
+
+toglie contenuti home:
+www.tiktok.com##.ec6jhlz0.tiktok-1id9666-DivMainContainer > div
+toglie contenuti discover:
+www.tiktok.com##._base_layout_main.jsx-1311605825
+toglie sezione "discover users" nella sidebar di sinistra:
+www.tiktok.com##div.e4a681b0.tiktok-1liq5tk-DivUserContainer:nth-of-type(2)
+toglie sezione "recommended videos" nella sidebar di destra, che appare quando apri un video dal profilo di un utente
+www.tiktok.com##.ege8lhx9.tiktok-1czmy9n-DivVideoList
+
+
+-------------------------------------------------------------------------------
+
+
+! 2022-05-27 https://www.quora.com
+x togliere contenuti correlati (risposte a domande correlate) + il riquadro per commentare a questi stessi post, e i leftovers del togliere il riquadro commenti:
+www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-hover--bg--darken.qu-pt--medium.q-box
+www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--raised.q-box > .qu-alignItems--center.qu-py--small.qu-px--medium.qu-bg--gray_ultralight.q-flex
+www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box > .bIwtPb.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.qu-hover--bg--darken.qu-cursor--pointer.qu-tapHighlight--white.qu-display--inline-block.q-click-wrapper > .qu-p--medium.q-box > .qu-truncateLines--1.qu-color--gray.qu-dynamicFontSize--small.q-text
+www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box > .bIwtPb.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.qu-hover--bg--darken.qu-cursor--pointer.qu-tapHighlight--white.qu-display--inline-block.q-click-wrapper > .qu-p--medium.q-box
+www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box
+
+x togliere contenuti correlati (a pagamento):
+www.quora.com##div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > .qu-hover--bg--darken.qu-pt--medium.q-box
+
+
+-------------------------------------------------------------------------------
+
+
+PROBABILMENTE LA VERSIONE DESKTOP E MOBILE SONO GESTITE INSIEME
+
+! 2022-05-27 https://www.instagram.com
+toglie contenuti su pagina principale (cell):
+www.instagram.com##.Wamc7.CZW53 > ._4EzTm.acqo5.eGOV_.IwRSH.Igw0E.qF0y9 > div > div
+toglie contenuti consigliati su pagina di cerca:
+www.instagram.com##.MxEZm
+
+! 2022-05-27 https://www.instagram.com
+toglie pannello delle storie
+www.instagram.com##.ku8Bn
+
+rimuove leftover riquadro storie in modalità desktop
+www.instagram.com##.IPQK5.zGtbP
+
+
+-------------------------------------------------------------------------------
+
+
+0.0.0.0 actualized.org
