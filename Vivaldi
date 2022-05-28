@@ -140,3 +140,7 @@ m.youtube.com##ytm-channel-list-sub-menu-renderer
 
 ! 2022-05-28 https://m.youtube.com
 m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(2)
+
+per togliere gli up next
+m.youtube.com##.watch-content > .scwnr-content
+
