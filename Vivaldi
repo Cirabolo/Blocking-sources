@@ -7,6 +7,8 @@
 !
 
 
+PORN:
+https://filterlists.com/lists/energized-porn-protection 
 
 
 
@@ -196,6 +198,12 @@ toglie tasto iscriviti
 www.youtube.com##tp-yt-paper-button.ytd-subscribe-button-renderer.style-scope
 toglie tasto download video
 www.youtube.com##.force-icon-button.size-default.style-default.ytd-download-button-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+
+
+! 2022-05-28 https://www.youtube.com
+www.youtube.com###button > .ytd-toggle-button-renderer.style-scope
+www.youtube.com##.ytd-toggle-button-renderer.style-scope.yt-simple-endpoint
+www.youtube.com##.ytd-popup-container.style-scope > .ytd-menu-popup-renderer.style-scope
 
 ! 2022-05-28 https://actualized.org
 ||actualized.org/images/main/sprites_main_01.png$image
