@@ -137,3 +137,6 @@ www.instagram.com##.JLlkA._8GFVD.N2s2W.CZW53
 ! 2022-05-28 https://m.youtube.com
 PER TOGLIERE FRECCIA CANALI A CUI SI E' ISCRITTI (VALUTO DI TENERLA in caso riuscissi a non far scomparire la pagina che esce quando effettivamente clicchi sulla spunta)
 m.youtube.com##ytm-channel-list-sub-menu-renderer
+
+! 2022-05-28 https://m.youtube.com
+m.youtube.com##ytm-item-section-renderer.scwnr-content:nth-of-type(2)
