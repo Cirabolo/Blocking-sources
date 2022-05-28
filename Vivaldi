@@ -130,6 +130,7 @@ www.instagram.com##.IPQK5.zGtbP
 
 
 NEW:
+
 ! 2022-05-28 https://www.instagram.com
 per togliere post su versione mobile
 www.instagram.com##.JLlkA._8GFVD.N2s2W.CZW53
@@ -168,3 +169,6 @@ tologono copy debug e stats for nerds
 m.youtube.com##ytm-menu-item:nth-of-type(2)
 m.youtube.com##ytm-menu-item:nth-of-type(1)
 
+! 2022-05-28 https://www.youtube.com
+toglie la mini sidebar su youtube desktop
+www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
