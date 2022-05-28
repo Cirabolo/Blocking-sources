@@ -8,19 +8,6 @@
 
 
 
-!m.youtube.com
-
-!youtube.com##.ytd-watch-secondary-results-renderer
-!youtube.com##ytd-rich-item-renderer
-
-!||youtube.com/feed/explore$document
-!||youtube.com/feed/explore$first-party
-
-!www.youtube.com/###primary
-
-
-
-
 
 
 ! 2022-05-27 https://m.youtube.com
@@ -143,3 +130,10 @@ www.instagram.com##.IPQK5.zGtbP
 
 
 0.0.0.0 actualized.org
+
+
+
+NEW:
+! 2022-05-28 https://www.instagram.com
+per togliere post su versione mobile
+www.instagram.com##.JLlkA._8GFVD.N2s2W.CZW53
