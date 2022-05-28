@@ -172,3 +172,14 @@ m.youtube.com##ytm-menu-item:nth-of-type(1)
 ! 2022-05-28 https://www.youtube.com
 toglie la mini sidebar su youtube desktop
 www.youtube.com##ytd-mini-guide-renderer.ytd-app.style-scope
+
+
+! 2022-05-28 https://www.youtube.com
+toglie tasto iscrizione
+www.youtube.com##tp-yt-paper-button.ytd-subscribe-button-renderer.style-scope
+toglie campanella notifiche
+www.youtube.com##.size-default.style-text.ytd-subscription-notification-toggle-button-renderer.style-scope
+toglie numero di iscritti sotto un canale
+www.youtube.com###owner-sub-count
+toglie download video (che è presente solo per youtube premium)
+www.youtube.com##.force-icon-button.size-default.style-default.ytd-download-button-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
