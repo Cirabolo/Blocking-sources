@@ -32,6 +32,12 @@ m.youtube.com##.has-show-all.channel-list-sub-menu-avatars
 toglie la barra in alto in home con "explore" e categorie di video consigliati
 m.youtube.com##.chip-container
 
+! 2022-06-20 https://m.youtube.com
+toglie la barra delle ricerche recentemente effettuate (quando si clicca cerca) => non ho bisogno di bloccare la history delle ricerche per non farmi influenzare da ricerche precendenti.
+un altro effetto positivo è che non mi velocizza la ricerca di canali compulsivi su cui torno spesso (tanto vale aver eliminato la barra delle iscrizioni)
+m.youtube.com##.sbsb_b
+
+
 
 ! 2022-05-27 https://www.youtube.com
 (DESKTOP VERSION)
