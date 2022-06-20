@@ -23,10 +23,14 @@ m.youtube.com##.pivot-shorts.pivot-bar-item-tab
 toglie lo slot per gli shorts
 m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
 
-blocca nuovi video iscrizioni
-m.youtube.com##ytm-section-list-renderer > lazy-list
+blocca nuovi video iscrizioni {però bloccava anche la barra di ricerca, quindi semplicemente ho tolto il bottone per le iscrizioni}
+! m.youtube.com##ytm-section-list-renderer > lazy-list
 upper bar con cerchiolini avatar canali a cui si è iscritti
 m.youtube.com##.has-show-all.channel-list-sub-menu-avatars
+
+! 2022-06-20 https://m.youtube.com
+toglie la barra in alto in home con "explore" e categorie di video consigliati
+m.youtube.com##.chip-container
 
 
 ! 2022-05-27 https://www.youtube.com
@@ -48,6 +52,12 @@ toglie scritta "subscription" rimasta nella sidebar
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(2)
 toglie scritta "more from youtube" rimasta nella sidebar
 www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(3)
+
+
+! 2022-06-20 https://m.youtube.com
+toglie bottone iscrizioni
+m.youtube.com##.pivot-subs.pivot-bar-item-tab
+m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(3)
 
 
 -------------------------------------------------------------------------------
@@ -269,6 +279,3 @@ actualized.org##a.quick_snippet_box:nth-of-type(24)
 ! 2022-05-28 https://actualized.org
 toglie tutte le thumbnail in home
 actualized.org##.thumbnail
-
-
-
