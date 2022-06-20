@@ -24,7 +24,7 @@ toglie lo slot per gli shorts
 m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
 
 blocca nuovi video iscrizioni
-m.youtube.com##ytm-section-list-renderer > lazy-list
+! m.youtube.com##ytm-section-list-renderer > lazy-list
 upper bar con cerchiolini avatar canali a cui si è iscritti
 m.youtube.com##.has-show-all.channel-list-sub-menu-avatars
 
