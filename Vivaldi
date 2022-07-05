@@ -6,10 +6,9 @@
 ! Homepage:
 !
 
-
-PORN:
-https://filterlists.com/lists/energized-porn-protection 
-
+PORN: // vanno messi tra "imported" in categoria filters list
+in questo link https://filterlists.com/lists/energized-porn-protection ci trovi:
+https://block.energized.pro/porn/formats/hosts.txt
 
 
 ! 2022-05-27 https://m.youtube.com
@@ -23,7 +22,7 @@ m.youtube.com##.pivot-shorts.pivot-bar-item-tab
 toglie lo slot per gli shorts
 m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(2)
 
-blocca nuovi video iscrizioni {però bloccava anche la barra di ricerca, quindi semplicemente ho tolto il bottone per le iscrizioni}
+blocca nuovi video iscrizioni {però bloccava anche la barra di ricerca {mi pare in realtà togliesse i risultati di ricerca}, quindi semplicemente ho tolto il bottone per le iscrizioni}
 ! m.youtube.com##ytm-section-list-renderer > lazy-list
 upper bar con cerchiolini avatar canali a cui si è iscritti
 m.youtube.com##.has-show-all.channel-list-sub-menu-avatars
@@ -35,10 +34,20 @@ toglie la barra delle ricerche recentemente effettuate (quando si clicca cerca) 
 un altro effetto positivo è che non mi velocizza la ricerca di canali compulsivi su cui torno spesso (tanto vale aver eliminato la barra delle iscrizioni). ti fa venire già voglia di cercare qualcosa di cui non hai bisogno, ti mette già di partenza che quando cerchi puoi cercare roba che non ti serve
 m.youtube.com##.searchbox-dropdown
 
+! 2022-07-05 https://m.youtube.com
+toglie una barra poco estetica sotto la barra di ricerca in home
+m.youtube.com###filter-chip-bar
+
 
 
 ! 2022-05-27 https://www.youtube.com
 (DESKTOP VERSION)
+
+toglie livello di gerarchia più alto per quanto riguarda il searchbox dropdown in modalità desktop
+!www.youtube.com##.sbdd_a.gstl_50 > div
+
+
+!||youtube.com^$document
 
 toglie contenuti in home, in explore e in subscriptions
 www.youtube.com###primary > .ytd-two-column-browse-results-renderer.style-scope
@@ -62,6 +71,30 @@ www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-o
 toglie bottone iscrizioni
 m.youtube.com##.pivot-subs.pivot-bar-item-tab
 m.youtube.com##ytm-pivot-bar-item-renderer:nth-of-type(3)
+
+! 2022-07-01 https://www.youtube.com
+RIMUOVONO LE VIEWS sia dal video che stai guardando, sia dai risultati di ricerca
+www.youtube.com###count > .ytd-video-primary-info-renderer.style-scope
+www.youtube.com###dot
+www.youtube.com##span.ytd-video-meta-block.style-scope:nth-of-type(1)
+
+! 2022-07-02 https://www.youtube.com
+RIMUOVO ELMENTI RIMASTI DELLA SIDEBAR (eccetto la history)
+rimuove tutte le playlist eccetto music
+www.youtube.com###expandable-items > ytd-guide-entry-renderer.ytd-guide-collapsible-entry-renderer.style-scope > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+rimuove anche "music" playlist (non so perché quella in particolare fosse rimasta fuori)
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(4)
+rimuovo il "library"
+www.youtube.com###header-entry > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+rimuove "your videos"
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(2)
+rimuove il "watch later"
+www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(3)
+rimouovono il "show more" e il "show less"
+www.youtube.com###expander-item > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+www.youtube.com###collapser-item > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+rimuove le linee separatrici doppione tra le raccolte e i vari riconoscimenti in fondo alla barra
+www.youtube.com##ytd-guide-section-renderer.ytd-guide-renderer.style-scope:nth-of-type(4)
 
 
 -------------------------------------------------------------------------------
