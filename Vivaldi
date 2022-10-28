@@ -6,9 +6,10 @@
 ! Homepage:
 !
 
+
 PORN: // vanno messi tra "imported" in categoria filters list
 in questo link https://filterlists.com/lists/energized-porn-protection ci trovi:
-https://block.energized.pro/porn/formats/hosts.txt
+!https://block.energized.pro/porn/formats/hosts.txt
 
 
 ! 2022-05-27 https://m.youtube.com
@@ -44,7 +45,7 @@ m.youtube.com###filter-chip-bar
 (DESKTOP VERSION)
 
 toglie livello di gerarchia più alto per quanto riguarda il searchbox dropdown in modalità desktop
-!www.youtube.com##.sbdd_a.gstl_50 > div
+www.youtube.com##.sbdd_a.gstl_50 > div
 
 
 !||youtube.com^$document
@@ -85,7 +86,7 @@ www.youtube.com###expandable-items > ytd-guide-entry-renderer.ytd-guide-collapsi
 rimuove anche "music" playlist (non so perché quella in particolare fosse rimasta fuori)
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(4)
 rimuovo il "library"
-www.youtube.com###header-entry > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
+!www.youtube.com###header-entry > .ytd-guide-entry-renderer.style-scope.yt-simple-endpoint
 rimuove "your videos"
 www.youtube.com##ytd-guide-entry-renderer.ytd-guide-collapsible-section-entry-renderer.style-scope:nth-of-type(2)
 rimuove il "watch later"
@@ -146,14 +147,14 @@ www.tiktok.com##.ege8lhx9.tiktok-1czmy9n-DivVideoList
 
 ! 2022-05-27 https://www.quora.com
 x togliere contenuti correlati (risposte a domande correlate) + il riquadro per commentare a questi stessi post, e i leftovers del togliere il riquadro commenti:
-www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-hover--bg--darken.qu-pt--medium.q-box
-www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--raised.q-box > .qu-alignItems--center.qu-py--small.qu-px--medium.qu-bg--gray_ultralight.q-flex
-www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box > .bIwtPb.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.qu-hover--bg--darken.qu-cursor--pointer.qu-tapHighlight--white.qu-display--inline-block.q-click-wrapper > .qu-p--medium.q-box > .qu-truncateLines--1.qu-color--gray.qu-dynamicFontSize--small.q-text
-www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box > .bIwtPb.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.qu-hover--bg--darken.qu-cursor--pointer.qu-tapHighlight--white.qu-display--inline-block.q-click-wrapper > .qu-p--medium.q-box
-www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box
+!www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-hover--bg--darken.qu-pt--medium.q-box
+!www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--raised.q-box > .qu-alignItems--center.qu-py--small.qu-px--medium.qu-bg--gray_ultralight.q-flex
+!www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box > .bIwtPb.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.qu-hover--bg--darken.qu-cursor--pointer.qu-tapHighlight--white.qu-display--inline-block.q-click-wrapper > .qu-p--medium.q-box > .qu-truncateLines--1.qu-color--gray.qu-dynamicFontSize--small.q-text
+!www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box > .bIwtPb.ClickWrapper___StyledClickWrapperBox-zoqi4f-0.qu-hover--bg--darken.qu-cursor--pointer.qu-tapHighlight--white.qu-display--inline-block.q-click-wrapper > .qu-p--medium.q-box
+!www.quora.com###mainContent > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-borderRadius--small.q-box > .qu-bg--gray_ultralight.q-box
 
 x togliere contenuti correlati (a pagamento):
-www.quora.com##div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > .qu-hover--bg--darken.qu-pt--medium.q-box
+!www.quora.com##div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > .qu-hover--bg--darken.qu-pt--medium.q-box
 
 
 -------------------------------------------------------------------------------
@@ -252,6 +253,7 @@ www.youtube.com###button > .ytd-toggle-button-renderer.style-scope
 www.youtube.com##.ytd-toggle-button-renderer.style-scope.yt-simple-endpoint
 www.youtube.com##.ytd-popup-container.style-scope > .ytd-menu-popup-renderer.style-scope
 
+
 ! 2022-05-28 https://actualized.org
 ||actualized.org/images/main/sprites_main_01.png$image
 
@@ -316,3 +318,102 @@ actualized.org##a.quick_snippet_box:nth-of-type(24)
 ! 2022-05-28 https://actualized.org
 toglie tutte le thumbnail in home
 actualized.org##.thumbnail
+
+! 2022-07-13 https://www.google.com
+www.google.com##.UUbT9
+
+! 2022-07-19 https://www.youtube.com
+www.youtube.com##ytd-watch-next-secondary-results-renderer.ytd-watch-flexy.style-scope > .ytd-watch-next-secondary-results-renderer.style-scope
+
+! 2022-07-22 https://www.quora.com
+!www.quora.com###mainContent > div > div > div.qu-bg--raised.qu-mb--small.qu-boxShadow--small.qu-borderColor--raised.qu-borderRadius--small.qu-borderAll.q-box > div > div > div > div > .qu-pt--medium.q-box
+
+! 2022-07-22 https://twitter.com
+twitter.com##.r-1udh08x.r-1ifxtd0.r-rs99b7.r-1phboty.r-1867qdf.r-14wv3jr.r-g2wdr4.css-1dbjc4n
+
+! 2022-07-28 https://www.youtube.com
+!www.youtube.com##.ytd-topbar-logo-renderer.style-scope > .ytd-logo.style-scope
+!www.youtube.com###voice-search-button > .size-default.style-default.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-default.ytd-button-renderer.style-scope
+!www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+!www.youtube.com###avatar-btn
+!www.youtube.com###button > .ytd-button-renderer.style-scope
+!www.youtube.com###button > .ytd-menu-renderer.style-scope
+!www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(3)
+!www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint
+!www.youtube.com###content > .ytd-video-secondary-info-renderer.style-scope
+!www.youtube.com##ytd-expander.ytd-video-secondary-info-renderer.style-scope
+!www.youtube.com###button > .yt-icon-button.style-scope
+!www.youtube.com##.ytd-video-primary-info-renderer.style-scope > .ytd-menu-renderer.style-scope.top-level-buttons
+!www.youtube.com##.ytd-video-primary-info-renderer.style-scope.super-title > .yt-formatted-string.style-scope.yt-simple-endpoint
+
+! 2022-07-28 https://www.youtube.com
+www.youtube.com##.ytd-video-primary-info-renderer.style-scope.super-title > .yt-formatted-string.style-scope.yt-simple-endpoint
+www.youtube.com###content > .ytd-video-secondary-info-renderer.style-scope
+www.youtube.com##ytd-expander.ytd-video-secondary-info-renderer.style-scope
+www.youtube.com###button > .yt-icon-button.style-scope
+www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-default.ytd-button-renderer.style-scope
+www.youtube.com###vote-count-middle
+
+! 2022-07-28 https://www.instagram.com
+www.instagram.com##._aam5._aam3._aam2._aam1
+www.instagram.com##._aaka._aak9._aak8._aak7._aak6
+
+! 2022-08-01 https://www.youtube.com
+www.youtube.com###voice-search-button > .size-default.style-default.ytd-masthead.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-default.ytd-button-renderer.style-scope
+
+! 2022-08-08 https://www.youtube.com
+!rimuove logo youtube cliccabile
+www.youtube.com##.ytd-topbar-logo-renderer.style-scope > .ytd-logo.style-scope
+!rimuove avatar personale e impostazioni che si aprono quando lo clicchi
+www.youtube.com###avatar-btn
+
+! 2022-08-09 https://www.youtube.com
+!rimuove cliccabilità canale
+www.youtube.com##.size-default.style-suggestive.ytd-video-owner-renderer.style-scope > .ytd-button-renderer.style-scope.yt-simple-endpoint > .size-default.style-suggestive.ytd-button-renderer.style-scope
+!rimuove spazio in cui si trova l'immagine del canale sotto al video
+www.youtube.com###meta-contents > .ytd-watch-flexy.style-scope
+!rimuove video suggeriti a fine video
+www.youtube.com##.ytp-endscreen-content
+
+! 2022-08-10 https://www.youtube.com
+www.youtube.com###tabs-container > .ytd-c4-tabbed-header-renderer.style-scope
+www.youtube.com##div.ytd-c4-tabbed-header-renderer.style-scope.banner-visible-area
+www.youtube.com###channel-container > .ytd-c4-tabbed-header-renderer.style-scope
+www.youtube.com##tp-yt-app-toolbar.ytd-c4-tabbed-header-renderer.style-scope > .ytd-c4-tabbed-header-renderer.style-scope
+www.youtube.com###header > .tp-yt-app-header.style-scope
+
+! 2022-08-19 https://www.reddit.com
+www.reddit.com###\33
+
+! 2022-08-20 https://www.youtube.com
+www.youtube.com##.ytp-autonav-toggle-button-container
+
+! 2022-08-22 https://www.youtube.com
+ELIMINA LA SEARCH BAR E ALTRI ELEMENTI INGOMBRANTI DELLA SIDEBAR
+www.youtube.com###search-icon-legacy
+www.youtube.com###logo
+www.youtube.com##.style-default.ytd-topbar-menu-button-renderer.style-scope
+www.youtube.com###guide-links-primary
+www.youtube.com###header > .ytd-app.style-scope
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+www.youtube.com###search-form > .ytd-searchbox.style-scope
+
+www.youtube.com###show-hide-button
+
+THIS ONE REMOVES THE PLAYLIST SIDEBAR AS YOU'RE PLAYING A VIDEO BELONGING TO THAT PLAYLIST
+!www.youtube.com###secondary > .ytd-watch-flexy.style-scope
+
+www.youtube.com###search-icon-legacy
+www.youtube.com###logo
+www.youtube.com###search-form > .ytd-searchbox.style-scope
+www.youtube.com###header > .ytd-app.style-scope
+www.youtube.com###guide-links-primary
+www.youtube.com###guide-links-secondary
+www.youtube.com##ytd-merch-shelf-renderer.ytd-watch-flexy.style-scope
+www.youtube.com###menu > .ytd-video-primary-info-renderer.style-scope
+
+! 2022-08-27 https://www.youtube.com
+www.youtube.com##.ytd-video-primary-info-renderer.style-scope.yt-simple-endpoint
+
+! 2022-10-01 https://www.instagram.com
+www.instagram.com##._ae4g._ae48._ae41._ae40._ae3_._aamu > ._aamz > div > div > ._abl-
