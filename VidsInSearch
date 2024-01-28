@@ -21,6 +21,17 @@ www.google.com##.appbar
 ! BLOCCA TUTTA LA PARTE ALTA DELLA PAGINA DI RICERCA
 www.google.com##.Fh5muf
 
+! CONTROPARTE QUALORA PASSASSI IN MODALITA' DESKTOP
+www.google.com##div.rfiSsc:nth-of-type(4)
+www.google.com###searchform
+
 ! BLOCCA GOOGLE VIDEO SEARCH
+!mobile
 www.google.com##.zGVn2e
+!desktop
 www.google.com##.A8SBwf
+! rimuove blocco video principale
+www.google.com###rso > div.ULSxyf > .MjjYud
+! rimuove video isolati
+www.google.com##.PmEWq.g
+
