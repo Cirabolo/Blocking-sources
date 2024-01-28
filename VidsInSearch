@@ -7,12 +7,17 @@
 !
 
 ! 2024-01-28 https://www.google.com
-! nasconde video risultati in ricerce su google search, mobile version
-www.google.com##.vt6azd.Ww4FFb.uVMCKf
+! NASCONDE VIDEO RISULTATI IN RICERCE SU GOOGLE SEARCH, MOBILE VERSION
 
-!blocca bottone "Video" da pagina Tutti
+! PER BLOCCARE VIDEO APPARTENENTI AL PRIMO BLOCCO DI CONSIGLIATI
+www.google.com##.vt6azd.Ww4FFb.uVMCKf
+! PER BLOCCARE VIDEO ISOLATI, NON APPARTENENTI AL BLOCCO DEI CONSIGLIATI
+www.google.com##.tRkSqb.vt6azd.Ww4FFb
+www.google.com##.PmEWq.g > div > div > div
+
+! BLOCCA BOTTONE "VIDEO" DA PAGINA TUTTI
 www.google.com##div.T3FoJb:nth-of-type(1) > .nPDzT.LatpMc
-!blocca bottone "Video" da pagina Immagini
+! BLOCCA BOTTONE "VIDEO" DA PAGINA IMMAGINI
 www.google.com##a.NZmxZe:nth-of-type(2)
-!blocca bottone "Video" da pagina Musica
+! BLOCCA BOTTONE "VIDEO" DA PAGINA MUSICA
 www.google.com##div:nth-of-type(4) > .niC1Ce
