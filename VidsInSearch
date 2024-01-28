@@ -17,8 +17,8 @@ www.google.com##.PmEWq.g > div > div > div
 
 ! BLOCCA TUTTI BOTTONI
 ! (per immagini ecc ti tocca cercare direttamente google images e partire da lì)
-!www.google.com##.appbar
-! BLOCCA DIRETTAMENTE TUTTA LA PARTE ALTA DELLA PAGINA DI RICERCA
+www.google.com##.appbar
+! BLOCCA TUTTA LA PARTE ALTA DELLA PAGINA DI RICERCA
 www.google.com##.Fh5muf
 
 ! BLOCCA GOOGLE VIDEO SEARCH
