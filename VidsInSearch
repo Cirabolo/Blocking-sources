@@ -20,3 +20,7 @@ www.google.com##.PmEWq.g > div > div > div
 !www.google.com##.appbar
 ! BLOCCA DIRETTAMENTE TUTTA LA PARTE ALTA DELLA PAGINA DI RICERCA
 www.google.com##.Fh5muf
+
+! BLOCCA GOOGLE VIDEO SEARCH
+www.google.com##.zGVn2e
+www.google.com##.A8SBwf
