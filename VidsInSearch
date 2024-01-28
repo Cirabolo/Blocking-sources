@@ -15,11 +15,5 @@ www.google.com##.vt6azd.Ww4FFb.uVMCKf
 www.google.com##.tRkSqb.vt6azd.Ww4FFb
 www.google.com##.PmEWq.g > div > div > div
 
-! BLOCCA BOTTONE "VIDEO" DA PAGINA TUTTI
-! [POTRESTI DOVER TOGLIERE UNO DI QUESTI DUE]
-www.google.com##div.T3FoJb:nth-of-type(1) > .nPDzT.LatpMc
-www.google.com##div.T3FoJb:nth-of-type(2) > .nPDzT.LatpMc
-! BLOCCA BOTTONE "VIDEO" DA PAGINA IMMAGINI
-www.google.com##a.NZmxZe:nth-of-type(2)
-! BLOCCA BOTTONE "VIDEO" DA PAGINA MUSICA
-www.google.com##div:nth-of-type(4) > .niC1Ce
+! BLOCCA TUTTI BOTTONI
+www.google.com##.Jb8vdb.fMHynf
