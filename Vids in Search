@@ -6,3 +6,13 @@
 ! Homepage:
 !
 
+! 2024-01-28 https://www.google.com
+! nasconde video risultati in ricerce su google search, mobile version
+www.google.com##.vt6azd.Ww4FFb.uVMCKf
+
+!blocca bottone "Video" da pagina Tutti
+www.google.com##div.T3FoJb:nth-of-type(1) > .nPDzT.LatpMc
+!blocca bottone "Video" da pagina Immagini
+www.google.com##a.NZmxZe:nth-of-type(2)
+!blocca bottone "Video" da pagina Musica
+www.google.com##div:nth-of-type(4) > .niC1Ce
